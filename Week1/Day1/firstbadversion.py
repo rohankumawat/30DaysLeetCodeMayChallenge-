@@ -5,7 +5,7 @@ class Solution(object):
         start = 1
         end = n
         while start <= end:
-            mid = (start+end)/2
+            mid = int((start+end)/2)
             if(isBadVersion(mid)==True and isBadVersion(mid-1)==False):
                 return mid
             elif(isBadVersion(mid-1)==True):
