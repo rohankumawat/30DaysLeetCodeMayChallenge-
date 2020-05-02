@@ -13,3 +13,5 @@ call isBadVersion(4) -> true
 
 Then 4 is the first bad version. 
 ```
+
+* firstbadversion.py has the code I used to complete the challenge.
