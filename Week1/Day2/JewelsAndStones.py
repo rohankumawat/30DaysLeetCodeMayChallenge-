@@ -4,6 +4,6 @@ class Solution:
         for i in J:
             for j in S:
                 if i == j:
-                    count = count + 1
+                    count += 1
         return count 
             
