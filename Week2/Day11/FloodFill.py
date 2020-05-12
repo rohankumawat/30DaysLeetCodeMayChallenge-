@@ -13,7 +13,6 @@ class Solution:
                     if r >= 1: dfs(r-1,c)
                     if r+1 < row: dfs(r+1,c)
                     if c >= 1: dfs(r,c-1)
-                    if c+1 < col: dfs(r,c+1)
-                        
+                    if c+1 < col: dfs(r,c+1)           
             dfs(sr,sc)
             return image
